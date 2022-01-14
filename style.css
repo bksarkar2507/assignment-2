@@ -1,0 +1,23 @@
+.first-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-title h2{
+    color: #3A3A3A;
+}
+.navigation{
+    display: flex;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+}
+.navigation ul li{
+    margin-left: 34px;
+    list-style-type: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}

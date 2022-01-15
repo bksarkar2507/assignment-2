@@ -256,6 +256,8 @@ main .container{
 
 /* media queries */
     
+
+/* mobile device */
 @media (max-width: 688px) {
     .first-header{
         display: block;
@@ -279,6 +281,7 @@ main .container{
     }
     .header-desc {
         text-align: center;
+        margin: 0px 5px;
     }
     .header-desc h1{
         font-size: 28px;
@@ -309,6 +312,51 @@ main .container{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .text-div h5{
+        margin-bottom: 0;
+    }
+}
+/* end of mobile device */
+
+
+/* for tab */
+@media (max-width: 992px) {
+    .second-header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .header-desc{
+        text-align: center;
+    }
+    .header-desc h1{
+        font-size: 30px;
+    }
+    .header-desc p{
+        font-size: 14px;
+    }
+    .header-img img{
+        width: 202px;
+        height: 190px;
+    }
+
+    .popular-collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bonus-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-div{
+        text-align: center;
     }
     .text-div h5{
         margin-bottom: 0;

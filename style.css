@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -86,6 +87,7 @@ body{
 main .container{
     width: 1047px;
     margin: 100px auto;
+    margin-bottom: 0;
     border: 1px solid red;
 }
 .popular-collection h2{
@@ -172,6 +174,36 @@ main .container{
 }
 
 
+
+/* bonus part */
+.bonus-container{
+    width: 1047px;
+    margin: 0px auto;
+    border: 1px solid rgb(119, 0, 255);
+    display: flex;
+}
+.text-div{
+    margin-left: 5px;
+}
+.text-div h5{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(236, 75, 0);
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+}
+.text-div h6{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text-div p{
+    font-size: 14px;
+}
+.img-div img{
+    width: 404px;
+    height: 270px;
+}
 
 
 

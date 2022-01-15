@@ -50,9 +50,19 @@ body{
     align-items: center;
     border: 1px solid tomato;
 }
+@keyframes header-animation {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.second-header:hover .header-img>img{
+    animation: header-animation 3s ease-in-out 0s;
+}
 .header-desc{
     width: 582px;
-    height: 280px;
     border: 1px solid ;
 }
 .header-desc h1{
@@ -62,13 +72,14 @@ body{
 }
 .header-desc p{
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .header-desc a{
     background-color: #E02C6D;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 41px;
     text-decoration: none;
 }

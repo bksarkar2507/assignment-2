@@ -4,6 +4,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* header section */
+.header-container{
+    margin: 0px 120px;
+}
 .header-div{
     display: flex;
     flex-direction: column;
@@ -13,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: 2px solid green;
 }
 .header-title h2{
     color: #3A3A3A;
@@ -76,9 +82,12 @@ body{
 
 /* main part start */
 main .container{
-    max-width: 900px;
-    margin: 0 auto;
-    border: 1px soli red;
+    width: 1047px;
+    margin: 100px auto;
+    border: 1px solid red;
+}
+.popular-collection h2{
+    text-align: center;
 }
 .products{
     display: grid;
@@ -164,6 +173,11 @@ main .container{
     border: 1px solid tomato;
     background-color: rgb(24, 24, 75);
     color: white;
+}
+.footer-container{
+    width: 1047px;
+    margin: 0px auto;
+    border: 1px solid rgb(235, 202, 20);
 }
 .footer-text{
     text-align: center;
